@@ -14,3 +14,7 @@ the classification loss.
 the localization loss (errors between the predicted boundary box and the ground truth).
 the confidence loss (the objectness of the box).
  
+ 
+ resnet_yolo.py contains a pre-trained network structure for the model. The network structure has been inspired by DetNet.
+ 
+ MP2_P2.ipynb contains the training a results of our object detection.
